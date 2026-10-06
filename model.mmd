@@ -1,0 +1,48 @@
+erDiagram
+    USER {
+        UUID id PK
+        String username
+        String password_hash
+        Enum role
+        %% role: member | moderator | admin
+        DateTime created_at
+    }
+    COMMUNITY {
+        UUID id PK
+        String name
+        String description
+    }
+    DISCUSSION {
+        UUID id PK
+        UUID author_id FK
+        UUID community_id FK
+        String title
+        DateTime created_at
+    }
+    COMMENT {
+        UUID id PK
+        UUID discussion_id FK
+        UUID author_id FK
+        String body
+        DateTime created_at
+    }
+    TAG {
+        UUID id PK
+        String name
+    }
+    REACTION {
+        UUID id PK
+        UUID user_id FK
+        UUID comment_id FK
+        Enum type
+        %% type: like | helpful | insightful
+        DateTime created_at
+    }
+
+    COMMUNITY ||--o{ DISCUSSION : "належить"
+    USER ||--o{ DISCUSSION : "автор"
+    DISCUSSION ||--|{ COMMENT : "містить"
+    USER ||--o{ COMMENT : "автор"
+    DISCUSSION }o--o{ TAG : "теги"
+    USER ||--o{ REACTION : "ставить"
+    COMMENT ||--o{ REACTION : "отримує"
