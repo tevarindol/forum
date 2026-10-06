@@ -3,8 +3,7 @@ erDiagram
         UUID id PK
         String username
         String password_hash
-        Enum role
-        %% role: member | moderator | admin
+        Integer role
         DateTime created_at
     }
     COMMUNITY {
@@ -34,14 +33,13 @@ erDiagram
         UUID id PK
         UUID user_id FK
         UUID comment_id FK
-        Enum type
-        %% type: like | helpful | insightful
+        Integer type
         DateTime created_at
     }
 
     COMMUNITY ||--o{ DISCUSSION : "належить"
     USER ||--o{ DISCUSSION : "автор"
-    DISCUSSION ||--|{ COMMENT : "містить"
+    DISCUSSION ||--o{ COMMENT : "містить"
     USER ||--o{ COMMENT : "автор"
     DISCUSSION }o--o{ TAG : "теги"
     USER ||--o{ REACTION : "ставить"
