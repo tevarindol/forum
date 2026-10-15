@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1154px" preserveAspectRatio="none" style="width:1098px;height:1154px;" version="1.1" viewBox="0 0 1098 1154" width="1098px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ifj312cc7f3o" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[01ea24113840d4d5d82598909ccc180a]
+cluster Форум--><rect fill="#FFFFFF" filter="url(#f1ifj312cc7f3o)" height="813" style="stroke: #000000; stroke-width: 1.5;" width="804" x="283" y="23.69"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="54" x="658" y="38.6851">Форум</text><ellipse cx="463.709" cy="432.7318" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="108.209" ry="24.0418" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="194" x="366.709" y="437.3802">Переглянути обговорення</text><ellipse cx="463.5262" cy="355.6952" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="78.0262" ry="18.0052" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="400.5262" y="360.3437">Зареєструватися</text><ellipse cx="463.5269" cy="805.7136" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="35.5269" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="440.5269" y="810.3621">Увійти</text><ellipse cx="463.711" cy="513.6322" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="97.711" ry="21.9422" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="171" x="378.211" y="518.2806">Створити обговорення</text><ellipse cx="463.3417" cy="586.8583" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="66.3417" ry="15.6683" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="414.8417" y="591.5068">Коментувати</text><ellipse cx="463.3592" cy="656.5618" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="84.8592" ry="19.3718" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="142" x="392.3592" y="661.2103">Поставити реакцію</text><ellipse cx="910.8827" cy="586.5665" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="159.8827" ry="34.3765" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="303" x="759.3827" y="591.215">Перевірити коментар сервісом модерації</text><ellipse cx="911.0118" cy="386.5924" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="95.0118" ry="21.4024" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="828.5118" y="391.2408">Модерувати коментар</text><ellipse cx="463.6446" cy="89.8189" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="141.1446" ry="30.6289" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="264" x="331.6446" y="94.4674">Обмежити опублікований коментар</text><ellipse cx="463.2915" cy="175.8483" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="88.7915" ry="20.1583" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="387.7915" y="180.4967">Відновити коментар</text><ellipse cx="910.9744" cy="783.5849" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="87.4744" ry="19.8949" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="836.9744" y="788.2333">Видалити коментар</text><ellipse cx="463.7163" cy="266.5333" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="164.7163" ry="35.3433" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="313" x="307.2163" y="271.1817">Переглянути чергу обмежених коментарів</text><ellipse cx="463.6626" cy="733.7225" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="98.1626" ry="22.0325" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="377.6626" y="738.371">Видалити обговорення</text><!--MD5=[9eecb807d8a7c1ba44cb916f191401d3]
+entity Guest--><ellipse cx="193.5" cy="363.69" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M193.5,371.69 L193.5,398.69 M180.5,379.69 L206.5,379.69 M193.5,398.69 L180.5,413.69 M193.5,398.69 L206.5,413.69 " fill="none" filter="url(#f1ifj312cc7f3o)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="175.5" y="432.1851">Гість</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="193.5" cy="590.69" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M193.5,598.69 L193.5,625.69 M180.5,606.69 L206.5,606.69 M193.5,625.69 L180.5,640.69 M193.5,625.69 L206.5,640.69 " fill="none" filter="url(#f1ifj312cc7f3o)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="151" y="659.1851">Користувач</text><!--MD5=[751c087365caa72459e8e7ad1438504b]
+entity Moderator--><ellipse cx="48" cy="235.69" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M48,243.69 L48,270.69 M35,251.69 L61,251.69 M48,270.69 L35,285.69 M48,270.69 L61,285.69 " fill="none" filter="url(#f1ifj312cc7f3o)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="6" y="304.1851">Модератор</text><!--MD5=[e6fd2ffc95d5029537c29ee3f85f56db]
+entity ModService--><ellipse cx="463.5" cy="952.4869" fill="#FEFECE" filter="url(#f1ifj312cc7f3o)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M463.5,960.4869 L463.5,987.4869 M450.5,968.4869 L476.5,968.4869 M463.5,987.4869 L450.5,1002.4869 M463.5,987.4869 L476.5,1002.4869 " fill="none" filter="url(#f1ifj312cc7f3o)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="123" x="402" y="1020.982">Сервіс модерації</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="427" y="939.6851">«external»</text><!--MD5=[89e44906110a15d1ebfd6f54dbf107c0]
+link Moderator to User--><path d="M65.46,307.41 C90.78,370.06 139.42,490.37 168.61,562.6 " fill="none" id="Moderator-&gt;User" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="175.12,560,176.12,581.17,162.14,565.25,175.12,560" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0926a545a5301cd43e06f4ebc8ffb9fc]
+link UC_CreateDiscussion to UC_AutoCheck--><path d="M542.87,526.53 C607.85,537.18 701.65,552.55 778.16,565.09 " fill="none" id="UC_CreateDiscussion-&gt;UC_AutoCheck" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="783.18,565.91,774.9499,560.5003,778.2465,565.0973,773.6495,568.3939,783.18,565.91" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="659" y="542.7569">«include»</text><!--MD5=[adcc753d1e9e475a8da09e5082b9dbf1]
+link UC_Comment to UC_AutoCheck--><path d="M530.24,586.69 C586.73,586.69 670.63,586.69 745.22,586.69 " fill="none" id="UC_Comment-&gt;UC_AutoCheck" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="750.57,586.69,741.57,582.69,745.57,586.69,741.57,590.69,750.57,586.69" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="659" y="582.7569">«include»</text><!--MD5=[7d8f4b7ed486897502f3c716e8776600]
+link UC_Restrict to UC_Moderate--><path d="M563.7,111.26 C585.62,118.06 608.19,126.75 628,137.69 C739.51,199.25 844.77,311.52 888.6,361.51 " fill="none" id="UC_Restrict-&gt;UC_Moderate" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="892.15,365.58,889.254,356.1665,888.8656,361.81,883.2221,361.4216,892.15,365.58" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="659.5" y="154.7569">«extend»</text><!--MD5=[c5199d3db3dedd7f0431e47ce750e10e]
+link UC_DeleteDiscussion to UC_DeleteComment--><path d="M551.45,743.45 C631.24,752.4 748.61,765.58 827.09,774.38 " fill="none" id="UC_DeleteDiscussion-&gt;UC_DeleteComment" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="832.2,774.96,823.7015,769.9825,827.2311,774.4031,822.8105,777.9328,832.2,774.96" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="659" y="752.7569">«include»</text><!--MD5=[3e7fdae606d3002a28839b696b01d9ae]
+link Guest to UC_View--><path d="M211.67,397.12 C243.56,401.65 313.95,411.63 372.08,419.87 " fill="none" id="Guest-UC_View" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5a687e50496296cab0d8668916607e76]
+link Guest to UC_Register--><path d="M211.67,392.19 C248.29,386.86 335.72,374.14 397,365.22 " fill="none" id="Guest-UC_Register" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[87b7fde481b8a4e3092e54b27640141b]
+link User to UC_View--><path d="M206.07,581.14 C217.88,547.24 239.56,500.29 275,473.69 C299.25,455.49 329.95,445.04 359.45,439.14 " fill="none" id="User-UC_View" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5cb7f0650a0a8aaa9b7a995609fd3cc2]
+link User to UC_Login--><path d="M205.24,662.39 C216.64,697.28 238.21,746 275,772.69 C320.35,805.59 387.84,809.39 428.28,808.2 " fill="none" id="User-UC_Login" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4a4b789db7da8faa5d70a7d6e44f670b]
+link User to UC_CreateDiscussion--><path d="M234.74,581.07 C246.83,570.79 260.71,560.7 275,553.69 C305.93,538.53 342.5,529.08 375.09,523.22 " fill="none" id="User-UC_CreateDiscussion" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a180654f4e05cec15ab0fc99194376be]
+link User to UC_Comment--><path d="M236.08,616.26 C281.36,610.35 354.1,600.85 404.88,594.22 " fill="none" id="User-UC_Comment" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d84d1338852a898a0133117a0fd4ed51]
+link User to UC_React--><path d="M236.08,627.12 C276.88,632.45 339.97,640.69 389.19,647.12 " fill="none" id="User-UC_React" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[42937566324e98f10561396b27ac4c60]
+link User to UC_DeleteComment--><path d="M195.95,662.52 C200.32,758.62 216.86,994.62 275,1042.69 C395.91,1142.67 481.81,1099.64 628,1042.69 C755.6,992.99 860.44,855.57 896.53,803.78 " fill="none" id="User-UC_DeleteComment" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7c8a2f05f391fdbf5fa3409e3169724b]
+link User to UC_DeleteDiscussion--><path d="M231.94,662.48 C244.58,674.13 259.45,685.79 275,693.69 C305.42,709.14 341.54,718.63 373.91,724.46 " fill="none" id="User-UC_DeleteDiscussion" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8d7276b3e8052bb4db3d3a5af7ad4bcb]
+link Moderator to UC_Moderate--><path d="M48.79,307.51 C50.79,421.32 74.62,740.23 275,837.69 C455.32,925.39 619.08,942.37 721,769.69 C774.52,679.01 702.93,628.37 751,534.69 C780.01,478.15 839.71,431.92 877.14,406.93 " fill="none" id="Moderator-UC_Moderate" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6fb20ebe7ebe5a70dd0a73c2960a6059]
+link Moderator to UC_Restrict--><path d="M90.04,235.24 C99.7,228.23 110.08,221.01 120,214.69 C163.99,186.69 255.66,144.76 275,137.69 C303.09,127.42 334.31,118.49 363.09,111.2 " fill="none" id="Moderator-UC_Restrict" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[63d871d8e3e2567b600da59ecf388b76]
+link Moderator to UC_Restore--><path d="M90.3,250.28 C99.95,246.8 110.26,243.38 120,240.69 C210.87,215.61 317.94,196.99 387.87,186.25 " fill="none" id="Moderator-UC_Restore" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[377a9c3d9eb3da25475534beeb83938e]
+link Moderator to UC_Queue--><path d="M90.16,266.69 C138.88,266.69 223,266.69 298.98,266.69 " fill="none" id="Moderator-UC_Queue" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[efec9b6d39e7321614834373f2358456]
+link ModService to UC_AutoCheck--><path d="M525.13,974.81 C583.87,970.53 671.18,954.52 721,899.69 C767.89,848.08 718.25,807.25 751,745.69 C778.32,694.34 827.7,648.9 864.21,619.89 " fill="none" id="ModService-UC_AutoCheck" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3ce9bf16ffb4dbd8d5e214b882336617]
+@startuml
+left to right direction
+
+actor "Гість" as Guest
+actor "Користувач" as User
+actor "Модератор" as Moderator
+actor "Сервіс модерації" as ModService <<external>>
+
+Moderator - -|> User
+
+rectangle "Форум" {
+  usecase "Переглянути обговорення" as UC_View
+
+  usecase "Зареєструватися" as UC_Register
+
+
+  usecase "Увійти" as UC_Login
+
+  usecase "Створити обговорення" as UC_CreateDiscussion
+
+  usecase "Коментувати" as UC_Comment
+
+  usecase "Поставити реакцію" as UC_React
+
+  usecase "Перевірити коментар сервісом модерації" as UC_AutoCheck
+
+  usecase "Модерувати коментар" as UC_Moderate
+
+  usecase "Обмежити опублікований коментар" as UC_Restrict
+
+  usecase "Відновити коментар" as UC_Restore
+
+  usecase "Видалити коментар" as UC_DeleteComment
+
+  usecase "Переглянути чергу обмежених коментарів" as UC_Queue
+
+  usecase "Видалити обговорення" as UC_DeleteDiscussion
+
+  UC_CreateDiscussion ..> UC_AutoCheck : <<include>>
+  UC_Comment ..> UC_AutoCheck : <<include>>
+
+  UC_Restrict ..> UC_Moderate : <<extend>>
+  UC_DeleteDiscussion ..> UC_DeleteComment : <<include>>
+}
+
+Guest - - UC_View
+Guest - - UC_Register
+User - - UC_View
+User - - UC_Login
+User - - UC_CreateDiscussion
+User - - UC_Comment
+User - - UC_React
+User - - UC_DeleteComment
+User - - UC_DeleteDiscussion
+Moderator - - UC_Moderate
+Moderator - - UC_Restrict
+Moderator - - UC_Restore
+Moderator - - UC_Queue
+ModService - - UC_AutoCheck
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.12.1+1-1-deb13u1-Debian
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
