@@ -1,0 +1,76 @@
+@startuml
+left to right direction
+
+actor "Гість" as Guest
+actor "Користувач" as User
+actor "Модератор" as Moderator
+actor "Сервіс модерації" as ModService <<external>>
+
+Moderator --|> User
+
+rectangle "Форум" {
+  ' ears: REQ-01
+  usecase "Переглянути обговорення" as UC_View
+
+  ' ears: REQ-02a
+  usecase "Зареєструватися" as UC_Register
+
+  ' ears: REQ-02b не має use case на діаграмі: відмова гостю є реакцією системи,
+  ' а не дією актора. Покриття — у lab2/scenarios.md.
+
+  ' ears: REQ-03
+  usecase "Увійти" as UC_Login
+
+  ' ears: REQ-04
+  usecase "Створити обговорення" as UC_CreateDiscussion
+
+  ' ears: REQ-05
+  usecase "Коментувати" as UC_Comment
+
+  ' ears: REQ-06
+  usecase "Поставити реакцію" as UC_React
+
+  ' ears: REQ-05, REQ-07a, REQ-07b, REQ-07c
+  usecase "Перевірити коментар сервісом модерації" as UC_AutoCheck
+
+  ' ears: REQ-08, REQ-09a, REQ-09b
+  usecase "Модерувати коментар" as UC_Moderate
+
+  ' ears: REQ-08
+  usecase "Обмежити опублікований коментар" as UC_Restrict
+
+  ' ears: REQ-09a
+  usecase "Відновити коментар" as UC_Restore
+
+  ' ears: REQ-09b
+  usecase "Видалити коментар" as UC_DeleteComment
+
+  ' ears: REQ-13
+  usecase "Переглянути чергу обмежених коментарів" as UC_Queue
+
+  ' ears: REQ-12. Лише автор. Видалення нульового коментаря тягне видалення обговорення.
+  usecase "Видалити обговорення" as UC_DeleteDiscussion
+
+  UC_CreateDiscussion ..> UC_AutoCheck : <<include>>
+  UC_Comment ..> UC_AutoCheck : <<include>>
+
+  UC_Restrict ..> UC_Moderate : <<extend>>
+  UC_DeleteDiscussion ..> UC_DeleteComment : <<include>>
+}
+
+Guest -- UC_View
+Guest -- UC_Register
+User -- UC_View
+User -- UC_Login
+User -- UC_CreateDiscussion
+User -- UC_Comment
+User -- UC_React
+User -- UC_DeleteComment
+User -- UC_DeleteDiscussion
+Moderator -- UC_Moderate
+Moderator -- UC_Restrict
+Moderator -- UC_Restore
+Moderator -- UC_Queue
+UC_AutoCheck --> ModService
+
+@enduml
