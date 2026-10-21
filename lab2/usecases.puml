@@ -71,6 +71,6 @@ Moderator -- UC_Moderate
 Moderator -- UC_Restrict
 Moderator -- UC_Restore
 Moderator -- UC_Queue
-ModService -- UC_AutoCheck
+UC_AutoCheck --> ModService
 
 @enduml
