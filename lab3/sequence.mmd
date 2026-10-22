@@ -38,11 +38,15 @@ sequenceDiagram
         end
     end
 
-    U->>C: deleteComment(commentId, actorId)
-    alt actorId є автором або модератором (REQ-09b)
+    alt Видаляє автор
+        U->>C: deleteComment(commentId, actorId)
+    else Видаляє модератор
+        M->>C: deleteComment(commentId, actorId)
+    end
+    alt actorId є автором або модератором і стан не «видалений» (REQ-09b)
         C->>DB: saveComment(commentId, видалений, порожньо)
         DB-->>C: ok
         C-->>U: ok
-    else actorId не автор і не модератор
+    else actorId не автор або модератор, чи коментар уже видалено
         C-->>U: відмова, стан не змінено
     end
