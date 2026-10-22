@@ -1,0 +1,48 @@
+sequenceDiagram
+    actor U as Користувач
+    participant C as Контролер коментарів
+    participant MS as Сервіс модерації
+    participant DB as Сховище COMMENT
+    actor M as Модератор
+
+    U->>C: createComment(discussionId, body)
+    C->>C: getCurrentUser()
+    alt Гість, userId порожній (REQ-02b)
+        C-->>U: відмова, коментар не створено
+    else Автентифікований користувач
+        C->>MS: checkContent(body)
+        alt Відповідь за 2 с
+            MS-->>C: score
+            alt Оцінка не вище 0.8 (REQ-07c)
+                Note over C: state = опублікований, reason порожньо
+            else Оцінка вище 0.8 (REQ-07a)
+                Note over C: state = обмежений, reason = 1
+            end
+        else Відповіді немає 2 с (REQ-07b)
+            Note over C,MS: таймаут 2 с, відповіді немає
+            Note over C: state = обмежений, reason = 2
+        end
+        C->>DB: insertComment(discussionId, userId, body, state, reason)
+        DB-->>C: commentId
+        C-->>U: commentId, state
+    end
+
+    opt Модератор відновлює обмежений коментар (REQ-09a)
+        M->>C: restoreComment(commentId, moderatorId)
+        alt moderatorId має роль модератора
+            C->>DB: saveComment(commentId, опублікований, порожньо)
+            DB-->>C: ok
+            C-->>M: ok
+        else Роль не модератора
+            C-->>M: відмова, стан не змінено
+        end
+    end
+
+    U->>C: deleteComment(commentId, actorId)
+    alt actorId є автором або модератором (REQ-09b)
+        C->>DB: saveComment(commentId, видалений, порожньо)
+        DB-->>C: ok
+        C-->>U: ok
+    else actorId не автор і не модератор
+        C-->>U: відмова, стан не змінено
+    end
