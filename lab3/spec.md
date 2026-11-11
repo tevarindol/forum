@@ -17,9 +17,10 @@
 
 | Виклик | Повертає | Призначення |
 |---|---|---|
+| `createComment(discussionId, body)` | `commentId` і стан або відмову в доступі | Запит користувача на створення коментаря |
 | `getCurrentUser()` | `userId` або порожньо (гість) | Визначити, чи є запит від автентифікованого користувача |
 | `checkContent(body)` | `score` (0.0–1.0) або відсутність відповіді протягом 2 с | Перевірити текст до створення коментаря |
-| `insertComment(discussionId, authorId, body, state, reason)` | `commentId` | Створити коментар із визначеними станом і причиною |
+| `insertComment(discussionId, authorId, body, state, reason)` | `commentId` | Створити коментар із визначеними станом і причиною; `authorId` дорівнює `userId` з `getCurrentUser()` |
 
 ## Сценарії
 
