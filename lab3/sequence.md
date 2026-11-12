@@ -36,15 +36,13 @@ sequenceDiagram
     activate MS
     MS-->>C: score ≤ 0.8 протягом 2 с
     deactivate MS
-    opt Умова публікації: score ≤ 0.8 (REQ-07c)
-        Note over C: state = опублікований, reason порожній
-        Note over C,DB: authorId = userId з getCurrentUser()
-        C->>DB: insertComment(discussionId, authorId, body, опублікований, порожньо)
-        activate DB
-        DB-->>C: commentId
-        deactivate DB
-        C-->>U: commentId, state = опублікований
-    end
+    Note over C: state = опублікований, reason порожній
+    Note over C,DB: authorId = userId з getCurrentUser()
+    C->>DB: insertComment(discussionId, authorId, body, опублікований, порожньо)
+    activate DB
+    DB-->>C: commentId
+    deactivate DB
+    C-->>U: commentId, state = опублікований
     deactivate C
 ```
 
@@ -65,15 +63,13 @@ sequenceDiagram
     activate MS
     MS-->>C: score > 0.8 протягом 2 с
     deactivate MS
-    opt Умова обмеження: score > 0.8 (REQ-07a)
-        Note over C: state = обмежений, reason = 1
-        Note over C,DB: authorId = userId з getCurrentUser()
-        C->>DB: insertComment(discussionId, authorId, body, обмежений, 1)
-        activate DB
-        DB-->>C: commentId
-        deactivate DB
-        C-->>U: commentId, state = обмежений
-    end
+    Note over C: state = обмежений, reason = 1
+    Note over C,DB: authorId = userId з getCurrentUser()
+    C->>DB: insertComment(discussionId, authorId, body, обмежений, 1)
+    activate DB
+    DB-->>C: commentId
+    deactivate DB
+    C-->>U: commentId, state = обмежений
     deactivate C
 ```
 
@@ -95,18 +91,16 @@ sequenceDiagram
     alt Відповідь не надійшла протягом 2 с (REQ-07b)
         Note over C,MS: Таймаут 2 с, оцінки немає
         Note over C: state = обмежений, reason = 2
-    else Відповідь надійшла протягом 2 с
-        MS-->>C: score
-        Note over C: Гілка обробки оцінки описана в окремих діаграмах REQ-07a і REQ-07c
-    end
-    deactivate MS
-    opt Таймаут сплив, оцінки немає (REQ-07b)
         Note over C,DB: authorId = userId з getCurrentUser()
         C->>DB: insertComment(discussionId, authorId, body, обмежений, 2)
         activate DB
         DB-->>C: commentId
         deactivate DB
         C-->>U: commentId, state = обмежений
+    else Відповідь надійшла протягом 2 с
+        MS-->>C: score
+        Note over C: Гілка обробки оцінки описана в окремих діаграмах REQ-07a і REQ-07c
     end
+    deactivate MS
     deactivate C
 ```
