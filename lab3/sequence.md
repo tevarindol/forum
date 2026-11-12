@@ -8,8 +8,6 @@
 sequenceDiagram
     actor U as Користувач (гість)
     participant C as Контролер коментарів
-    participant MS as Сервіс модерації
-    participant DB as Сховище COMMENT
 
     U->>C: createComment(discussionId, body)
     activate C
